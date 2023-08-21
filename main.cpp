@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Classes/Class1.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Class1 obj;
+    obj.show();
     return 0;
 }

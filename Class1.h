@@ -4,7 +4,8 @@
 
 
 class Class1 {
-
+public:
+    virtual void show()const =0;
 };
 
 
